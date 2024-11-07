@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFDED;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    background: #AD2831;
+    font-size: 1.4em;
+    color: white;
+    border-radius: 1em;
+    padding: 0.3em;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    width: 80vw;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/*.imgimpact {
+    width: 
+}*/
+
+main img {
+    width: 80vw;
+    margin: 2em;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #AD2831;
+    width: 80vw;
+    color: white;
+    margin-top: 2em;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin-top: 1em;
+}
+
+section a {
+    background: #800E13;
+    color: white;
+    border-radius: 5px;
+    height: 4vh;
+    width: 30vw;
+    padding-top: 0.3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+section img {
+    width: 10vw;
+}
+
+.section1 {
+    background: #3F9CFF;
+    margin-bottom: 6em;
+}
+
+.section1 a {
+    background: #296CB2;
+}
+
+.sectionrond {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 100%;
+    background: #3F9CFF;
+    height: 44vh;
+    width: 80vw;
+    text-align: left;
+    margin-bottom: 5em;
+}
+
+.sectionrond img {
+    margin: 0; 
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.sectionrond p {
+    font-size: 1em;
+    width: 50vw;
+    text-align: start;
+}
+
+.sectionrond div {
+    flex-direction: row;
+    align-items: center;
+}
+
+.sectionrondrood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #AD2831;
+    height: 44vh;
+    width: 80vw;
+    text-align: left;
+    padding-bottom: 2em;
+    margin-top: -3em;
+}
+
+.sectionrondrood img {
+    margin: 0; 
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 2em;
+}
+
+.sectionrondrood p {
+    font-size: 1em;
+    width: 50vw;
+    text-align: start;
+}
+
+.sectionrondrood div {
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    background: #AD2831;
+    bottom: 0; 
+    left: 0; 
+    width: 100vw;
+    height: 10vh;
+}
+
+footer img {
+    height: 7vh;
+    padding-top: 0.8em;
+}
+
+.ponder {
+    margin-bottom: 5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
